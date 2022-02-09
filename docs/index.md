@@ -1,3 +1,5 @@
-uhh welcome to my site
+welcome to baconsiri site
 
-you may be looking for the [distracting websites list creator](https://baconerie.github.io/Distracting-Websites-List-Creator/)
+this site is created by baconerie
+
+baconsiri is not baconerie
