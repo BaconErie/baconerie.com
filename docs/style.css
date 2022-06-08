@@ -1,0 +1,17 @@
+/* COLORS
+
+Profile Picture Background Color: #3A3A3A
+Website Background Color: #101010
+
+*/
+
+
+body {
+    background-color: #101010;
+    margin: 0;
+}
+
+#top-bar {
+    background-color: white;
+    padding: 2vw;
+}
