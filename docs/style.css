@@ -15,3 +15,67 @@ body {
     background-color: white;
     padding: 2vw;
 }
+
+/*
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.card {
+	border-radius:10px;
+  width: 250px;
+  box-shadow: 0px 0px 10px 5px #101010;
+  text-align: center;
+    background-color: #3A3A3A;
+  overflow: hidden;
+  
+}
+
+div.header {
+
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+#container {
+  padding: 10px;
+
+  color: #000000;	
+}
+
+body {
+  background-color: #2B2B2B;
+}
+
+div.card:active {
+	box-shadow: none;
+    background-color: #1a1a1a;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>Create Cards</h1>
+
+<p>The box-shadow property can be used to create paper-like cards:</p>
+
+<div class="card">
+  <div class="header">
+    <h1>1</h1>
+  </div>
+
+  <div id="container">
+    <p>January 1, 2021</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+*/
