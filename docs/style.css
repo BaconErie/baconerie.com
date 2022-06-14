@@ -13,7 +13,12 @@ body {
 
 #top-bar {
     background-color: white;
-    padding: 2vw;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#header {
+  
 }
 
 /*
