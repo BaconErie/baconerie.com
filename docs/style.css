@@ -17,8 +17,22 @@ body {
     padding: 1rem;
 }
 
-#header {
-  
+#mobile-topbar-title {
+    display: inline;
+}
+
+#desktop-topbar-title {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    #mobile-topbar-title {
+        display: none;
+    }
+
+    #desktop-topbar-title {
+        display: inline;
+    }
 }
 
 /*
