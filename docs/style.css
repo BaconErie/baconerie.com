@@ -31,7 +31,12 @@ body {
         background-color: white;
         font-size: 2rem;
         padding: 1rem;
-        display: block;
+        display: flex;
+    }
+
+    #desktop-topbar > div {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
     }
 }
 
