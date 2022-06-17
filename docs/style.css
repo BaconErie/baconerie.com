@@ -44,10 +44,17 @@ body {
 
         color: #ffffff;
         background-color: #3A3A3A;
+
+        font-family: 'Ubuntu', sans-serif;
     }
 
     .topbar-hover-effect:hover {
         background-color: #101010 !important;
+    }
+
+    #logo-text {
+        height: 0.9em;
+        width: auto;
     }
 }
 
