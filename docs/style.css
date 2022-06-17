@@ -22,6 +22,10 @@ body {
     display: none;
 }
 
+.hardhats {
+    display: none;
+}
+
 @media only screen and (min-width: 600px) {
     #mobile-topbar {
         display: none;
@@ -55,6 +59,10 @@ body {
     #logo-text {
         height: 0.9em;
         width: auto;
+    }
+
+    .hardhats {
+        display: block;
     }
 }
 
