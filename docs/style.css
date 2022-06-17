@@ -11,27 +11,27 @@ body {
     margin: 0;
 }
 
-#top-bar {
+#mobile-topbar {
     background-color: white;
     font-size: 2rem;
     padding: 1rem;
+    display: block;
 }
 
-#mobile-topbar-title {
-    display: inline;
-}
-
-#desktop-topbar-title {
+#desktop-topbar {
     display: none;
 }
 
 @media only screen and (min-width: 600px) {
-    #mobile-topbar-title {
+    #mobile-topbar {
         display: none;
     }
 
-    #desktop-topbar-title {
-        display: inline;
+    #desktop-topbar {
+        background-color: white;
+        font-size: 2rem;
+        padding: 1rem;
+        display: block;
     }
 }
 
