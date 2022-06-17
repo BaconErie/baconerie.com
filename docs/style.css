@@ -14,8 +14,13 @@ body {
 #mobile-topbar {
     background-color: white;
     font-size: 2rem;
-    padding: 1rem;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-image {
+    height: 1.5em;
+    width: auto;
 }
 
 #desktop-topbar {
