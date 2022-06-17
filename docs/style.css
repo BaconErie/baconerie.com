@@ -29,14 +29,17 @@ body {
 
     #desktop-topbar {
         background-color: white;
-        font-size: 2rem;
-        padding: 1rem;
+        font-size: 1.5rem;
+        padding-left: 0.5;
         display: flex;
     }
 
     #desktop-topbar > div {
         margin-left: 0.5em;
         margin-right: 0.5em;
+        height: 2.5em;
+        display: flex;
+        align-items: center;
     }
 }
 
