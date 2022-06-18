@@ -12,10 +12,19 @@ body {
 }
 
 #mobile-topbar {
-    background-color: white;
-    font-size: 2rem;
+    height: 2em;
+
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between  ;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    color: #ffffff;
+    background-color: #3A3A3A;
+
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #logo-image {
