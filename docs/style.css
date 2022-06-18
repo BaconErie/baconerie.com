@@ -4,11 +4,13 @@ Profile Picture Background Color: #3A3A3A
 Website Background Color: #101010
 
 */
-
-
 body {
     background-color: #101010;
     margin: 0;
+}
+
+.topbar-hover-effect:hover {
+    background-color: #101010 !important;
 }
 
 #mobile-topbar {
@@ -34,6 +36,12 @@ body {
 }
 
 #logo-image {
+    height: 1.5em;
+    width: auto;
+    border-radius: 5px;
+}
+
+#more-button-image{
     height: 1.5em;
     width: auto;
     border-radius: 5px;
@@ -71,10 +79,6 @@ body {
         background-color: #3A3A3A;
 
         font-family: 'Ubuntu', sans-serif;
-    }
-
-    .topbar-hover-effect:hover {
-        background-color: #101010 !important;
     }
 
     #logo-text {
