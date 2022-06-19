@@ -9,10 +9,6 @@ body {
     margin: 0;
 }
 
-.topbar-hover-effect:hover {
-    background-color: #101010 !important;
-}
-
 #mobile-topbar {
     background-color: #3A3A3A;
     font-size: 1.5rem;
@@ -28,6 +24,27 @@ body {
 
     padding-left: 0.5em;
     padding-right: 0.5em;
+
+    color: #ffffff;
+    background-color: #3A3A3A;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    
+    width: 100%;
+
+    background-color: #3A3A3A;
+}
+
+#mobile-menu > div {
+    font-size: 2em;
+
+    padding: 0.5em;
 
     color: #ffffff;
     background-color: #3A3A3A;
@@ -56,6 +73,10 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
+    .topbar-hover-effect:hover {
+        background-color: #101010 !important;
+    }
+
     #mobile-topbar {
         display: none;
     }
@@ -88,6 +109,10 @@ body {
 
     .hardhats {
         display: block;
+    }
+
+    #mobile-menu {
+        display: none;
     }
 }
 
