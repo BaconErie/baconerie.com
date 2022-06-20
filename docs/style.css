@@ -64,6 +64,13 @@ body {
     border-radius: 5px;
 }
 
+#less-button-image{
+    height: 1.5em;
+    width: auto;
+    border-radius: 5px;
+    display: none;
+}
+
 #desktop-topbar {
     display: none;
 }
