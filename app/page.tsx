@@ -15,6 +15,7 @@ interface workCardProps {
   imagePath: string;
   appName: string;
   appDesc: string;
+  link: string;
 }
 function WorkCard(props: workCardProps) {
   return (
@@ -28,10 +29,7 @@ function WorkCard(props: workCardProps) {
           />
           <div className="my-0">
             <CardTitle>
-              <a
-                className="hover:underline"
-                href="https://zibutton.baconerie.com"
-              >
+              <a className="hover:underline" href={props.link}>
                 {props.appName}
               </a>
             </CardTitle>
@@ -80,11 +78,13 @@ export default function MainPage() {
             imagePath="/zibutton.svg"
             appName="字Button"
             appDesc="Study chinese with buttons instead of paper and pencil"
+            link="https://zibutton.baconerie.com"
           />
           <WorkCard
             imagePath="/seven_noise_gif.gif"
             appName="Simple Diffusion"
             appDesc="Attempt at making a diffusion model from scratch in PyTorch"
+            link="https://github.com/BaconErie/Simple-Diffusion"
           />
         </div>
       </div>
