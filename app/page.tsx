@@ -44,7 +44,6 @@ function WorkCard(props: workCardProps) {
 export default function MainPage() {
   const { setTheme } = useTheme();
 
-  setTheme("dark");
   return (
     <>
       <div className="h-svh flex justify-center items-center">
